@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FitZone</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .hero-section {
+            background-image: url('thegym.jpg'); /* your uploaded image */
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color:black;
+            background-color: beige;
+            border-radius: 7px;
+        }
+
+        .services-section {
+            padding: 50px 20px;
+            background: beige;
+            text-align: center;
+        }
+        .services-section h3 {
+            margin-bottom: 30px;
+        }
+        .btn btn-primary{background-color: beige;}
+        .Table{ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid beige;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #98755B;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #775F4E;
+        }
+        .focus-day {
+            font-weight: bold;
+        }}
+        .trainers {
+    text-align: center;
+    padding: 20px;
+    background-color:beige;
+  }
+
+  .trainers-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly around trainers */
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .trainer {
+    text-align: center; /* Center text below the image */
+  }
+
+  .trainer img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px; /* Add some space below the image */
+  }
+
+  .trainer h3 {
+    margin-top: 0; /* Reset default margin */
+    font-size: 1.2em;
+  }
+  .reviews{
+    background-color: #775F4E;
+    height:400px;
+    
+  }
+  .footer{background-color: #775F4E;margin-top: 15px;color:beige;
+height:55px;}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"style="background-color:beige;color:black;border-radius:7px;width:115px;padding-left :15px;">THE GYM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Timetable</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Trainers</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Membership</a></li>
+
+            <li class="nav-item">
+                <a class="btn btn-primary" href="#" style="margin-left:10px;background-color: beige;color:black;border-radius:7px;width:115px;padding-left :15px">Get Started</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="hero-section">
+
+
+</div>
+
+
+<div class="services-section">
+    <h3>Our Services</h3>
+    <div class="row">
+        <div class="col-md-4">
+            <h5>Personal Training</h5>
+            <p>Unlock your potential with one-on-one personal training!.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>Ancient Ayurveda</h5>
+            <p>Unleash ancient health maintaining experience.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>Meditation and Yoga</h5>
+            <p>Peace and Relaxation amid chaos.</p>
+        </div>
+        <div class="col-md-12" style="text-align: center; ">
+            <h5>Female Batches</h5>
+            <p>Safe space,Strong results.</p>
+        </div>
+    </div>
+</div>
+<div><h4 style=" font-family:cursive;text-align:center;padding-top:25px;background-color: #84634A;height:75px;color: black;">Sculpting the week,one workout at a time</h4></div>
+<div class="Table">
+<table>
+
+
+  <thead>
+    <tr>
+        <th>Day</th>
+        <th>Morning</th>
+        <th>Evening</th>
+        <th>Focus</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td class="focus-day"><strong>Monday</strong></td>
+        <td>Strength Train</td>
+        <td>Cardio/Abs</td>
+        <td>Chest/Triceps</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Tuesday</strong></td>
+        <td>Strength Train</td>
+        <td>Cardio/Abs</td>
+        <td>Back/Biceps</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Wednesday</strong></td>
+        <td>Active Recovery</td>
+        <td>Rest</td>
+        <td>Light</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Thursday</strong></td>
+        <td>Strength Train</td>
+        <td>Cardio/Abs</td>
+        <td>Shoulder/Legs</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Friday</strong></td>
+        <td>Strength Train</td>
+        <td>Cardio/Abs</td>
+        <td>Full Body</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Saturday</strong></td>
+        <td>Longer Cardio</td>
+        <td>Stretching</td>
+        <td>Active</td>
+    </tr>
+    <tr>
+        <td class="focus-day"><strong>Sunday</strong></td>
+        <td>Rest/Mobility</td>
+        <td>Light Activity</td>
+        <td>Recovery</td>
+    </tr>
+</tbody>
+    
+          
+
+
+</table>
+<section class="trainers">
+  <h4 style=" font-family:cursive;text-align:center;padding-top:25px;background-color: beige;height:75px;color: black;">Our Expert Trainers </h4>
+  <div class="trainers-container">
+    <div class="trainer">
+      <img src="ooo.jpg" alt="Mayank Sharma" style="width:150px;height:150px;border-radius:50%;">  <h3>Mayank Sharma-CPR and first aid certified</h3>
+     
+    </div>
+    <div class="trainer">
+      <img src="th.jpg" alt="Anmol Baloch" style="width:150px;height:150px;border-radius:50%;">  <h3>Anmol Baloch-Certified Ayurvedic Practitioner</h3>
+     
+    </div>
+    <div class="trainer">
+      <img src="yoga.jpg" alt="Anita Patel" style="width:150px;height:150px;border-radius:50%;">  <h3>Mishti Parekh-Yoga Expertise with 12+ years of experience</h3>
+     
+      
+    </div>
+  </div>
+</section>
+<div class="reviews"><section class="reviews-section">
+  <center><h4 style="font-family: Arial, Helvetica, sans-serif;padding-top:45px;color:antiquewhite">Gym GLow-The Gym Talks</h4></center>
+  <div class="reviews-row"style="text-align:center;color:beige;padding-top:25px;">
+    <div class="review-box">
+      <p>"Excellent gym! The trainers are knowledgeable and supportive. I've seen great results in just one month"</p>
+      <p class="reviewer">- Bhargavi Patel</p>
+    </div>
+    <div class="review-box">
+      <p>"Love the variety of classes offered. The facility is always clean, and the staff is friendly."</p>
+      <p class="reviewer">- Smit Patel</p>
+    </div>
+    <div class="review-box">
+      <p>"A fantastic place to work out. The equipments are  top-notch, and the atmosphere is really motivating."</p>
+      <p class="reviewer">- Mahi Narwani</p>
+
+
+      <div class="final"style="background-color:beige;padding-top:25px;color:#775F4E">
+        <p style="color:#5C3422;font-weight:bold;padding-top:0 ;font-family: cursive;">Dreaming about a perfect figure and mascular body ,</p>
+          <center> <bold><p style="color:#5C3422;font-family:cursive;font-weight: bolder;"> we got you join THE MY GYM and achieve your dream in just weeks!"</p></bold></center>
+       <button style="border-radius:7px;background-color: #775F4E;width:100px;color:beige">JOIN NOW </button>
+       <div class="footer">
+        <p style="padding-top: 12px;"></p>&#xA9 All Rights Reserved,THE GYM ;</p>
+       </div>
+    </div>
+    </div>
+ </section>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
